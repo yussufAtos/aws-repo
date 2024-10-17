@@ -1,0 +1,595 @@
+15-Oct-2024 09:30:21.354 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+15-Oct-2024 09:30:21.623 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+15-Oct-2024 09:30:21.761 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Arrêt du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 09:30:21.792 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:41:22.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\conf\logging.properties
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:41:22.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\temp
+15-Oct-2024 09:41:22.693 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+15-Oct-2024 09:41:22.943 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 09:41:22.990 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [505] millisecondes
+15-Oct-2024 09:41:23.053 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+15-Oct-2024 09:41:23.053 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+15-Oct-2024 09:41:23.084 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@126945f9]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@126945f9]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 09:41:23.084 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@126945f9]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@126945f9]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 09:41:23.084 SEVERE [main] org.apache.catalina.startup.Catalina.start Le composant Server requis n'a pas démarré, en conséquence Tomcat ne peut démarrer.
+	org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@126945f9]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@126945f9]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 09:41:23.084 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+15-Oct-2024 09:41:23.084 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+15-Oct-2024 09:41:23.084 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:42:00.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\conf\logging.properties
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\temp
+15-Oct-2024 09:42:00.733 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+15-Oct-2024 09:42:00.968 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 09:42:00.999 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [458] millisecondes
+15-Oct-2024 09:42:01.061 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+15-Oct-2024 09:42:01.061 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+15-Oct-2024 09:42:01.077 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 09:42:01.077 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 09:42:01.077 SEVERE [main] org.apache.catalina.startup.Catalina.start Le composant Server requis n'a pas démarré, en conséquence Tomcat ne peut démarrer.
+	org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 09:42:01.093 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+15-Oct-2024 09:42:01.093 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+15-Oct-2024 09:42:01.093 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:44:38.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\conf\logging.properties
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat
+15-Oct-2024 09:44:38.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\temp
+15-Oct-2024 09:44:38.173 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+15-Oct-2024 09:44:38.454 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 09:44:38.501 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [583] millisecondes
+15-Oct-2024 09:44:38.564 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+15-Oct-2024 09:44:38.564 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+15-Oct-2024 09:44:38.971 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [110] millisecondes
+15-Oct-2024 09:44:38.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\docs]
+15-Oct-2024 09:44:39.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\docs] de l'application web s'est terminé en [32] ms
+15-Oct-2024 09:44:39.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\examples]
+15-Oct-2024 09:44:39.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\examples] de l'application web s'est terminé en [453] ms
+15-Oct-2024 09:44:39.471 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\host-manager]
+15-Oct-2024 09:44:39.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\host-manager] de l'application web s'est terminé en [42] ms
+15-Oct-2024 09:44:39.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\manager]
+15-Oct-2024 09:44:39.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\manager] de l'application web s'est terminé en [34] ms
+15-Oct-2024 09:44:39.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\ROOT]
+15-Oct-2024 09:44:39.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\projects\aws\aws-deploy-ang\tomcat\webapps\ROOT] de l'application web s'est terminé en [43] ms
+15-Oct-2024 09:44:39.603 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 09:44:39.736 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1234] millisecondes
+15-Oct-2024 11:49:38.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\projects\aws\aws-angular\tomcat
+15-Oct-2024 11:49:38.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\projects\aws\aws-angular\tomcat
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\projects\aws\aws-angular\tomcat\conf\logging.properties
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\projects\aws\aws-angular\tomcat
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\projects\aws\aws-angular\tomcat
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\projects\aws\aws-angular\tomcat\temp
+15-Oct-2024 11:49:38.635 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+15-Oct-2024 11:49:39.031 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+15-Oct-2024 11:49:39.079 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [879] millisecondes
+15-Oct-2024 11:49:39.157 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+15-Oct-2024 11:49:39.157 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+15-Oct-2024 11:49:39.204 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-angular\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 11:49:39.204 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-angular\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 11:49:39.204 SEVERE [main] org.apache.catalina.startup.Catalina.start Le composant Server requis n'a pas démarré, en conséquence Tomcat ne peut démarrer.
+	org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@5629510]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\projects\aws\aws-angular\public\browser] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+15-Oct-2024 11:49:39.210 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+15-Oct-2024 11:49:39.210 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+15-Oct-2024 11:49:39.210 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]

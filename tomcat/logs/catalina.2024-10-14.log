@@ -1,0 +1,834 @@
+14-Oct-2024 10:21:31.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86
+14-Oct-2024 10:21:31.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\conf\logging.properties
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86
+14-Oct-2024 10:21:31.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\temp
+14-Oct-2024 10:21:31.843 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:21:32.152 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:21:32.189 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [594] millisecondes
+14-Oct-2024 10:21:32.281 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:21:32.281 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:21:32.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\docs]
+14-Oct-2024 10:21:32.754 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [133] millisecondes
+14-Oct-2024 10:21:32.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\docs] de l'application web s'est terminé en [491] ms
+14-Oct-2024 10:21:32.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\examples]
+14-Oct-2024 10:21:33.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\examples] de l'application web s'est terminé en [525] ms
+14-Oct-2024 10:21:33.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\host-manager]
+14-Oct-2024 10:21:33.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\host-manager] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:21:33.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\manager]
+14-Oct-2024 10:21:33.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\manager] de l'application web s'est terminé en [47] ms
+14-Oct-2024 10:21:33.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\ROOT]
+14-Oct-2024 10:21:33.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Documents\apache-tomcat-9.0.86\apache-tomcat-9.0.86\webapps\ROOT] de l'application web s'est terminé en [47] ms
+14-Oct-2024 10:21:33.438 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:21:33.563 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1379] millisecondes
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:30:01.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:30:01.447 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:30:01.697 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:30:01.729 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [473] millisecondes
+14-Oct-2024 10:30:01.776 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:30:01.776 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:30:02.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:30:02.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:30:02.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:30:02.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [281] ms
+14-Oct-2024 10:30:02.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:30:02.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:30:02.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:30:02.464 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:30:02.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:30:02.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:30:02.496 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:30:02.589 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [869] millisecondes
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:35:25.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:35:25.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:35:25.857 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:35:26.138 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:35:26.169 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [592] millisecondes
+14-Oct-2024 10:35:26.232 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:35:26.232 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:35:26.608 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [108] millisecondes
+14-Oct-2024 10:35:26.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:35:26.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [24] ms
+14-Oct-2024 10:35:26.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:35:27.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [391] ms
+14-Oct-2024 10:35:27.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:35:27.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [47] ms
+14-Oct-2024 10:35:27.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:35:27.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [47] ms
+14-Oct-2024 10:35:27.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:35:27.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:35:27.188 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:35:27.282 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1118] millisecondes
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:17.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:36:17.882 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:36:18.179 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:36:18.210 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [587] millisecondes
+14-Oct-2024 10:36:18.286 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:36:18.286 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:36:18.318 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@2a898881]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@2a898881]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\ang-test\ang-tuto\dist\ang-tuto\browser\index.html] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+14-Oct-2024 10:36:18.318 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@2a898881]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@2a898881]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\ang-test\ang-tuto\dist\ang-tuto\browser\index.html] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+14-Oct-2024 10:36:18.318 SEVERE [main] org.apache.catalina.startup.Catalina.start Le composant Server requis n'a pas démarré, en conséquence Tomcat ne peut démarrer.
+	org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@2a898881]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@2a898881]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\ang-test\ang-tuto\dist\ang-tuto\browser\index.html] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+14-Oct-2024 10:36:18.318 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+14-Oct-2024 10:36:18.318 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+14-Oct-2024 10:36:18.318 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:36:25.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:25.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:36:26.000 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:36:26.204 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:36:26.220 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [441] millisecondes
+14-Oct-2024 10:36:26.298 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:36:26.298 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:36:26.329 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@6d3c5255]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@6d3c5255]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\ang-test\ang-tuto\dist\ang-tuto\browser\index.html] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+14-Oct-2024 10:36:26.336 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal Un conteneur fils a échoué pendant son démarrage
+	java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@6d3c5255]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@6d3c5255]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\ang-test\ang-tuto\dist\ang-tuto\browser\index.html] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+14-Oct-2024 10:36:26.336 SEVERE [main] org.apache.catalina.startup.Catalina.start Le composant Server requis n'a pas démarré, en conséquence Tomcat ne peut démarrer.
+	org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:925)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 13 more
+	Caused by: org.apache.catalina.LifecycleException: Un conteneur fils a échoué pendant son démarrage
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:885)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 13 more
+	Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@6d3c5255]
+		at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+		at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:873)
+		... 21 more
+	Caused by: org.apache.catalina.LifecycleException: Echec de démarrage du composant [org.apache.catalina.webresources.StandardRoot@6d3c5255]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4575)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		... 21 more
+	Caused by: java.lang.IllegalArgumentException: L'ensemble de ressources principal [C:\Users\yussu\Desktop\ang-test\ang-tuto\dist\ang-tuto\browser\index.html] n'est pas un répertoire, un fichier war, ou n'est pas lisible (il n'existe pas ou les permissions pour y accéder manquent)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 30 more
+14-Oct-2024 10:36:26.336 INFO [main] org.apache.coyote.AbstractProtocol.pause Le gestionnaire de protocole ["http-nio-8080"] est mis en pause
+14-Oct-2024 10:36:26.336 INFO [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+14-Oct-2024 10:36:26.336 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destruction du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:44.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:36:44.098 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:36:44.332 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:36:44.364 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [481] millisecondes
+14-Oct-2024 10:36:44.411 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:36:44.411 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:36:44.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:36:44.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:36:44.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:36:45.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [265] ms
+14-Oct-2024 10:36:45.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:36:45.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:36:45.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:36:45.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:36:45.083 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:36:45.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:36:45.115 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:36:45.209 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [839] millisecondes
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:38:59.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:38:59.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:38:59.543 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:38:59.840 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:38:59.871 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [569] millisecondes
+14-Oct-2024 10:38:59.918 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:38:59.918 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:38:59.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser]
+14-Oct-2024 10:39:00.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser] de l'application web s'est terminé en [361] ms
+14-Oct-2024 10:39:00.294 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:39:00.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [47] ms
+14-Oct-2024 10:39:00.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:39:00.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [360] ms
+14-Oct-2024 10:39:00.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:39:00.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [47] ms
+14-Oct-2024 10:39:00.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:39:00.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:39:00.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:39:00.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:39:00.826 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:39:00.972 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1105] millisecondes
+14-Oct-2024 10:41:51.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:41:51.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:41:51.900 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:41:52.167 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:41:52.198 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [569] millisecondes
+14-Oct-2024 10:41:52.276 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:41:52.276 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:41:52.670 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom La création de l'instance de SecureRandom pour le générateur d'id de session en utilisant [SHA1PRNG] a pris [142] millisecondes
+14-Oct-2024 10:41:52.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser]
+14-Oct-2024 10:41:52.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:41:52.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:41:52.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [32] ms
+14-Oct-2024 10:41:52.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:41:53.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [389] ms
+14-Oct-2024 10:41:53.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:41:53.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [48] ms
+14-Oct-2024 10:41:53.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:41:53.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [47] ms
+14-Oct-2024 10:41:53.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:41:53.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [37] ms
+14-Oct-2024 10:41:53.281 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:41:53.390 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1186] millisecondes
+14-Oct-2024 10:49:17.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:49:17.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:49:17.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:49:17.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:49:17.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:49:17.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:49:17.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:49:17.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:49:17.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:49:17.110 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:49:17.331 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:49:17.365 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [469] millisecondes
+14-Oct-2024 10:49:17.425 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:49:17.425 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:49:17.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser]
+14-Oct-2024 10:49:17.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser] de l'application web s'est terminé en [15] ms
+14-Oct-2024 10:49:17.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:49:17.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:49:17.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:49:18.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [264] ms
+14-Oct-2024 10:49:18.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:49:18.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [32] ms
+14-Oct-2024 10:49:18.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:49:18.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [15] ms
+14-Oct-2024 10:49:18.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:49:18.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:49:18.113 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:49:18.207 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [846] millisecondes
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:50:00.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:50:00.191 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:50:00.419 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:50:00.451 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [515] millisecondes
+14-Oct-2024 10:50:00.513 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:50:00.513 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:50:00.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser]
+14-Oct-2024 10:50:00.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:50:00.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:50:00.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [15] ms
+14-Oct-2024 10:50:00.889 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:50:01.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [283] ms
+14-Oct-2024 10:50:01.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:50:01.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [15] ms
+14-Oct-2024 10:50:01.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:50:01.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [32] ms
+14-Oct-2024 10:50:01.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:50:01.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [15] ms
+14-Oct-2024 10:50:01.250 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:50:01.342 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [892] millisecondes
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:51:38.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:51:38.732 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:51:38.951 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:51:38.983 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [468] millisecondes
+14-Oct-2024 10:51:39.046 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:51:39.046 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:51:39.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser]
+14-Oct-2024 10:51:39.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser] de l'application web s'est terminé en [22] ms
+14-Oct-2024 10:51:39.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:51:39.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:51:39.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:51:39.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [312] ms
+14-Oct-2024 10:51:39.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:51:39.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:51:39.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:51:39.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:51:39.779 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:51:39.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [32] ms
+14-Oct-2024 10:51:39.821 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:51:39.905 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [923] millisecondes
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:52:13.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:52:13.797 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:52:14.067 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:52:14.083 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [507] millisecondes
+14-Oct-2024 10:52:14.146 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:52:14.146 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:52:14.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser]
+14-Oct-2024 10:52:14.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:52:14.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:52:14.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [15] ms
+14-Oct-2024 10:52:14.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:52:14.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [275] ms
+14-Oct-2024 10:52:14.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:52:14.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:52:14.829 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:52:14.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [16] ms
+14-Oct-2024 10:52:14.861 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:52:14.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [46] ms
+14-Oct-2024 10:52:14.892 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:52:15.003 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [914] millisecondes
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom version serveur :              Apache Tomcat/9.0.86
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Serveur compilé :                  Feb 14 2024 08:15:12 UTC
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version du serveur :               9.0.86.0
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nom de l'OS :                      Windows 11
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version OS :                       10.0
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture :                     amd64
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home :                        C:\Program Files\Java\jdk-11
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Version JVM :                      11.0.18+9-LTS-195
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Fournisseur de la JVM :            Oracle Corporation
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:52:49.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME :                    C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.io=ALL-UNNAMED
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util=ALL-UNNAMED
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.config.file=C:\Users\yussu\Desktop\ang-test\tomcat\conf\logging.properties
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djdk.tls.ephemeralDHKeySize=2048
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dignore.endorsed.dirs=
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.base=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Dcatalina.home=C:\Users\yussu\Desktop\ang-test\tomcat
+14-Oct-2024 10:52:49.617 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Argument de la ligne de commande : -Djava.io.tmpdir=C:\Users\yussu\Desktop\ang-test\tomcat\temp
+14-Oct-2024 10:52:49.633 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La librairie Apache Tomcat Native basée sur APR qui permet des performances optimales dans les environnements de production n'a pas été trouvée sur le java.library.path : [C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-11\bin;C:\Users\yussu\AppData\Local\Microsoft\WindowsApps;C:\Users\yussu\AppData\Roaming\npm;C:\Users\yussu\AppData\Local\Programs\Microsoft VS Code\bin;;.]
+14-Oct-2024 10:52:49.914 INFO [main] org.apache.coyote.AbstractProtocol.init Initialisation du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:52:49.945 INFO [main] org.apache.catalina.startup.Catalina.load L'initialisation du serveur a pris [582] millisecondes
+14-Oct-2024 10:52:50.023 INFO [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+14-Oct-2024 10:52:50.023 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Démarrage du moteur de Servlets : [Apache Tomcat/9.0.86]
+14-Oct-2024 10:52:50.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser]
+14-Oct-2024 10:52:50.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\browser] de l'application web s'est terminé en [15] ms
+14-Oct-2024 10:52:50.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs]
+14-Oct-2024 10:52:50.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\docs] de l'application web s'est terminé en [32] ms
+14-Oct-2024 10:52:50.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples]
+14-Oct-2024 10:52:50.805 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\examples] de l'application web s'est terminé en [359] ms
+14-Oct-2024 10:52:50.805 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager]
+14-Oct-2024 10:52:50.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\host-manager] de l'application web s'est terminé en [47] ms
+14-Oct-2024 10:52:50.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager]
+14-Oct-2024 10:52:50.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\manager] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:52:50.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire d'application web [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT]
+14-Oct-2024 10:52:50.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Le déploiement du répertoire [C:\Users\yussu\Desktop\ang-test\tomcat\webapps\ROOT] de l'application web s'est terminé en [31] ms
+14-Oct-2024 10:52:50.930 INFO [main] org.apache.coyote.AbstractProtocol.start Démarrage du gestionnaire de protocole ["http-nio-8080"]
+14-Oct-2024 10:52:51.039 INFO [main] org.apache.catalina.startup.Catalina.start Le démarrage du serveur a pris [1085] millisecondes
