@@ -177,7 +177,7 @@
 
          <!-- <Context path="/mon-site" docBase="C:\Users\yussu\Desktop\ang-test\ang-tuto\dist\ang-tuto\browser" />  -->
 
-         <Context path="/my-app" docBase="../../public/browser" />  
+         <Context path="/my-app" docBase="/home/ubuntu/aws-repo/public/browser" />  
 
       </Host>
     </Engine>
